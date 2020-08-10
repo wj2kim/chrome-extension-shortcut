@@ -1,0 +1,13 @@
+{
+    "manifest_version" : 2,
+    "name" : "Rsupport Link Shortcut Launcher",
+    "description" : "Quick Launch Rsupport Work Related Links",
+    "version" : "0.0.1",
+    "icons" : { "128" : "Rsupport_favicon_128.png"},
+    "browser_action" : {
+        "default_icon" : "",
+        "default_popup" : "popup.html"
+    },
+    "permissions" : ["activeTab"],
+    "default locale" : "ko",
+}
