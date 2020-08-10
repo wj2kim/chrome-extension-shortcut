@@ -1,13 +1,18 @@
 {
     "manifest_version" : 2,
     "name" : "Rsupport Link Shortcut Launcher",
-    "description" : "Quick Launch Rsupport Work Related Links",
+    "description" : "Quick Launcher for Rsupport Work Related Links",
     "version" : "0.0.1",
-    "icons" : { "128" : "Rsupport_favicon_128.png"},
+    "icons" : { "128" : "images/Rsupport_favicon.png"},
     "browser_action" : {
-        "default_icon" : "",
+        "default_icon" : "images/Rsupport_favicon.png",
         "default_popup" : "popup.html"
     },
-    "permissions" : ["activeTab"],
-    "default locale" : "ko",
+    "permissions": [
+        "activeTab"
+    ],
+    "optional_permissions": [
+        "https://docs.google.com/spreadsheets/d/1zFv69oGSD9o5UJd_vNPLDgcr2Jy5-8f3rQHV5pE5Kl0/edit#gid=1733624064",
+        "https://docs.google.com/spreadsheets/d/e/2PACX-1vSTunQ8bnaysSFF_oFf2hHxZE0Ubfpd6-xKH9p5a2UGMBrtFRxFuyRAdNh42kb06ETZcZpG35pLvWCI/pubhtml?widget=true&amp;headers=false"
+    ]
 }
