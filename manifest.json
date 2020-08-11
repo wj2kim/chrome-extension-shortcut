@@ -2,7 +2,7 @@
     "manifest_version" : 2,
     "name" : "Rsupport Link Shortcut Launcher",
     "description" : "Quick Launcher for Rsupport Work Related Links",
-    "version" : "0.0.1",
+    "version" : "0.1.1",
     "icons" : { "128" : "images/Rsupport_favicon.png"},
     "browser_action" : {
         "default_icon" : "images/Rsupport_favicon.png",
