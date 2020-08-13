@@ -26,7 +26,7 @@ const render = () => {
     }
 };
 
-// render();
+// render(); don't need to render before iframe finish loads.
 
 const iframe = document.createElement("iframe");
 iframe.className ="link-library";  
