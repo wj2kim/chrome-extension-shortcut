@@ -3,6 +3,7 @@
     "name" : "Rsupport Link Shortcut Launcher",
     "description" : "Quick Launcher for Rsupport Work Related Links",
     "version" : "1.0.0",
+    "author" : "Paul Woo Jung Kim",
     "icons" : { "128" : "images/Rsupport_favicon.png"},
     "browser_action" : {
         "default_icon" : "images/Rsupport_favicon.png",
